@@ -3,3 +3,4 @@ pymongo
 selenium
 webdriver_manager
 apscheduler
+uvicorn
