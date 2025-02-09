@@ -1,0 +1,5 @@
+fastapi
+pymongo
+selenium
+webdriver_manager
+apscheduler
