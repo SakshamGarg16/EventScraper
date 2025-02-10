@@ -5,7 +5,7 @@ const App = () => {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8000/events")
+    axios.get("https://eventscraper.onrender.com/events")
       .then(response => setEvents(response.data.events))
       .catch(error => console.error("Error fetching events:", error));
   }, []);
